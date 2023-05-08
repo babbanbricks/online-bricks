@@ -72,23 +72,24 @@ navbar-li a:hover{background-color: #111;}
           .row{margin: 0;}
           .page-2-p{text-align: center; font-size:18px; font-weight:lighter;}
 
-.page-3{ margin: 0; background-color: #FFFFFF;text-align: center; width: 100%; height:300px;}
+.page-3{ margin: 0; background-color: #FFFFFF;text-align: center; width: 100%; height:auto;}
+            .page-3-div-display{display: flex;  align-items: center; justify-content: center; gap:30px}
             .page-3-line-1{  font-size: 40px; font-weight: bolder;}
             .page-3-image1{width: 116px; height: 116px; float: left; border-radius:100%; background-color:white;}
-            .icon-box{  display:inline-block; background-color: #89C4E1; border-radius: 50px;width: 30%;}
+            .icon-box{background-color: #89C4E1; border-radius: 50px;width: 30%;}
             .content-text{text-align:left;}
             .icon-box-1{background-color: #EAFDFC; border-radius: 50px;}
             .icon-box-in{ color: black;}
 .page-4{}
             .prodcuctRange-title{ font-size: 40px; font-weight: bold;}
             .page-4-image{width: 95px; height: 85px;}
-            .product-thumb{ background-color: #FAF8F1; display:inline-block; margin-left: 15px; border: 1px solid black; border-radius: 10%; width: 160px; height: 182px; padding-top: 30px;}
-            .productRang-thumb{ background-color: #FFFFFF; height: 250px;}
+            .product-thumb{ background-color: #FAF8F1;border: 1px solid black; border-radius: 10%; width: 160px; height: 182px; padding-top: 30px;}
+            .productRang-thumb{ background-color: #FFFFFF; display:flex; justify-content: center; gap:15px; }
 .page-5{background-image:url("https://images.unsplash.com/photo-1498673394965-85cb14905c89?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTN8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"); width: 100%; height: 600px; text-align: center;}
             .page-5-box{width: 90%;  margin-left: 60px;display: flex; align-items: center; justify-content: center; gap:10px;; }
-              .page-5-box-1{width: 90%; margin-top: 50px; margin-left: 60px; display: flex; justify-content: center; gap:10px;align-items: center;}
+            .page-5-box-1{width: 90%; margin-top: 50px; margin-left: 60px; display: flex; justify-content: center; gap:10px;align-items: center;}
             .page-5-line{}
-              .page-5-box-img-1{width: 260px; height: 200px; border: 2px solid #8BACAA;}
+            .page-5-box-img-1{width: 260px; height: 200px; border: 2px solid #8BACAA;}
             .page-5-line-1{padding: 20px; font-size: 40px; font-weight: bolder;}
             .page-5-iconl30{}
             .page-5-icon-image{}
